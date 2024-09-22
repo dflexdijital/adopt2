@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container py-2  ">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center gap-2 " href="#">
+                        <div class="logo-ico ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-asterisk" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1" />
+                            </svg>
+                        </div>
+                        <div class=" lh-sm">
+                            <div class="fs-3">spark</div>
+                            <div class="fs-sm">dogs healts life</div>
+                        </div>
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="d-flex justify-content-end w-100">
+                            <ul class="navbar-nav d-flex gap-3 fw-custom-bold">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link " aria-disabled="true">Disabled</a>
+                                </li>
+                                <li class=" nav-item  d-flex align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-3">
+
+            <div class="hero-content-wrapper bg-green-color rounded-5">
+                <div class="row px-4 px-md-5">
+                    <div class="col-12 col-lg-5 py-4 py-md-5 ps-md-5  d-flex align-items-center">
+                        <div class="hero-content-start-wrapper d-flex flex-column gap-3">
+                            <div class="hero-content-start-wrapper-heading display-5 poppins-semibold">
+                                Your Impact Starts Here
+                            </div>
+                            <div class="hero-content-start-wrapper-content poppins-regular ">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam architecto.
+                            </div>
+                            <div class="hero-content-start-wrapper-buttons d-flex gap-3 mt-3">
+                                <a href="#?"
+                                    class="px-4 py-2 rounded-5 text-decoration-none  poppins-semibold border border-dark border-2 ">Donate</a>
+                                <a href="#?"
+                                    class="px-4 py-2 rounded-5 text-decoration-none  poppins-semibold bg-purple-color color-green ">Adopt</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="hero-content-end-wrapper position-relative ">
+                            <div class="hero-content-end-img w-100 h-100 ">
+                                <img src="assets/img/hero/pexels-svetozar-milashevich-9957.png" alt=""
+                                    class="rotw w-100 h-100">
+                            </div>
+                            <div
+                                class="hero-content-end-img-in-arrow position-absolute arrow-img four d-md-block d-none">
+                                <div class="position-relative">
+                                    <div class="position-absolute arrow-content four fw-custom-bold fs-6">Happy Dog
+                                    </div>
+                                    <img src="assets/img/hero/pngwing.com (3).png" alt="" class="arrow four">
+                                </div>
+                            </div>
+                            <div
+                                class="hero-content-end-img-in-arrow position-absolute arrow-img fife d-md-block d-none ">
+                                <div class="position-relative">
+                                    <div class="position-absolute arrow-content fife fw-custom-bold fs-6">Storong earse
+                                    </div>
+                                    <img src="assets/img/hero/pngwing.com (3).png" alt="" class="arrow fife">
+                                </div>
+                            </div>
+                            <div
+                                class="hero-content-end-img-in-arrow position-absolute arrow-img two  d-md-block d-none">
+                                <div class="position-relative">
+                                    <div class="position-absolute arrow-content two fw-custom-bold fs-6">Bright Eyes
+                                    </div>
+                                    <img src="assets/img/hero/pngwing.com (3).png" alt="" class="arrow two">
+                                </div>
+                            </div>
+                            <div
+                                class="hero-content-end-img-in-arrow position-absolute arrow-img one  d-md-block d-none">
+                                <div class="position-relative">
+                                    <div class="position-absolute arrow-content one fw-custom-bold fs-6">Big Smile</div>
+                                    <img src="assets/img/hero/pngwing.com (3).png" alt="" class="arrow one">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bottom-card-wrapper">
+                <div class="row py-5 my-4 px-md-5 gap-md-0 gy-md-4 gap-3 justify-content-center">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="hero-bottom-card p-4 rounded-5 d-flex flex-column gap-3  project-custom-border">
+
+                            <div class="hero-bottom-card-ico-and-heading d-flex align-items-center gap-4 ">
+                                <div class="hero-bottom-card-ico">
+                                    <img src="assets/img/hero-bottom-card/pngwing.com (6).png" alt=""
+                                        class="purple-filer">
+                                </div>
+                                <div class="hero-bottom-card-heading fw-custom-bold fs-6">
+                                    Adopt a recuase animal
+                                </div>
+                            </div>
+
+                            <div class="hero-bottom-card-content">
+                                Lorem ipsum dolor sit amet sit amet adipisicing elit ?
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6  col-lg-4">
+
+                        <div class="hero-bottom-card p-4 project-custom-border rounded-5 d-flex flex-column gap-3">
+
+                            <div class="hero-bottom-card-ico-and-heading d-flex align-items-center gap-4 ">
+                                <div class="hero-bottom-card-ico">
+                                    <img src="assets/img/hero-bottom-card/pngwing.com (6).png" alt=""
+                                        class="purple-filer">
+                                </div>
+                                <div class="hero-bottom-card-heading fw-custom-bold fs-6">
+                                    Adopt a recuase animal
+                                </div>
+                            </div>
+
+                            <div class="hero-bottom-card-content">
+                                Lorem ipsum dolor sit amet sit amet adipisicing elit ?
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6  col-lg-4">
+
+                        <div class="hero-bottom-card project-custom-border p-4 rounded-5 d-flex flex-column gap-3">
+
+                            <div class="hero-bottom-card-ico-and-heading d-flex align-items-center gap-4 ">
+                                <div class="hero-bottom-card-ico">
+                                    <img src="assets/img/hero-bottom-card/pngwing.com (6).png" alt=""
+                                        class="purple-filer">
+                                </div>
+                                <div class="hero-bottom-card-heading fw-custom-bold fs-6">
+                                    Adopt a recuase animal
+                                </div>
+                            </div>
+
+                            <div class="hero-bottom-card-content">
+                                Lorem ipsum dolor sit amet sit amet adipisicing elit ?
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="dedicated-section-all-wrapper  project-custom-border rounded-5 p-md-5 p-4 d-flex flex-column gap-5">
+                <div class="dedicated-section-top-content-wrapper ">
+
+                    <div class="row gap-md-0 gap-4">
+                        <div class="col-12 col-md-6">
+                            <div class="dedicated-section-top-start-content-wrapper d-flex flex-column gap-4 ">
+                                <div class="dedicated-section-top-start-heading d-flex flex-column gap-2">
+                                    <div class="dedicated-section-frist-heading fs-4 fw-custom-bold w-75" id="veri">
+                                        Dedicated to saving lives, one tail at a time
+                                    </div>
+                                    <div class="dedicated-section-two-heading">
+                                        Since 2019, we recuse , treat ,shellter, feed and rehome anilmas in need.
+                                    </div>
+                                </div>
+                                <div class="dedicated-section-top-start-list">
+                                    <ul class="d-flex flex-column gap-1">
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Lorem, ipsum.</li>
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Lorem ipsum dolor sit.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="dedicated-section-top-start-button d-flex align-items-center flex-wrap gap-4">
+
+                                    <a href="#?"
+                                        class="px-4 py-2 rounded-5 text-decoration-none  poppins-semibold bg-purple-color color-green ">Visit
+                                        Us</a>
+                                    <div class="dedicated-section-top-start-button-content">Lorem ipsum dolor sit amet
+                                        consectetur.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 dedicated-end-col">
+                            <div class="dedicated-section-top-end-content-wrapper p-5 h-100 position-relative">
+
+                                <div class="dedicated-img-one  position-absolute"> <img
+                                        src="assets/img/dedicated/dedi1.jpg" alt="" class="w-100"></div>
+                                <div class="dedicated-img-two   position-absolute"> <img
+                                        src="assets/img/dedicated/dedi3.jpg" alt="" class="w-100"></div>
+                                <div class="dedicated-img-fife  position-absolute"> <img
+                                        src="assets/img/dedicated/dedi2.jpg" alt="" class="w-100"></div>
+                                <div class="dedicated-item-one position-absolute"></div>
+                                <div class="dedicated-item-two position-absolute"></div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dedicated-section-bottom-cotent-wrapper mt-4">
+                    <div class="row gap-md-0 gap-4">
+                        <div class="col-12 col-md-4">
+                            <div
+                                class="dedicated-section-bottom-content-card px-5  d-flex flex-column gap-2 text-center">
+                                <div class="dedicated-section-bottom-content-card-number display-4 poppins-semibold">
+                                    +3,500
+                                </div>
+                                <div class="dedicated-section-bottom-content-card-word">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div
+                                class="dedicated-section-bottom-content-card px-5  d-flex flex-column gap-2 text-center">
+                                <div class="dedicated-section-bottom-content-card-number display-4 poppins-semibold">
+                                    +4,000
+                                </div>
+                                <div class="dedicated-section-bottom-content-card-word">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div
+                                class="dedicated-section-bottom-content-card px-5  d-flex flex-column gap-2 text-center">
+                                <div class="dedicated-section-bottom-content-card-number display-4 poppins-semibold">
+                                    +5,500
+                                </div>
+                                <div class="dedicated-section-bottom-content-card-word">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+      <div class="container py-md-5 my-md-5 py-4 my-4">
+        <div class="row g-md-0 gap-md-0 gap-5">
+            <div class="col-12 col-md-6 px-5">
+                <div class="section-how-can-start-wrapper position-relative">
+                    <img src="assets/img/howhelp/how-help.png" alt="" class="w-100">
+                   
+                </div>
+            </div>
+            <div class="col-12 col-md-6  px-5">
+                <div class="section-how-help-end-wrapper d-flex flex-column gap-4">
+                     <div class="section-how-can-end-heading fw-custom-bold fs-3">
+                        How you can help ?
+                     </div>
+                     <div class="section-how-can-end-content ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora, itaque tenetur optio similique ducimus.
+                     </div>
+                     <div class="section-how-can-end-acordion-wrapper">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item ">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Lorem ipsum dolor sit amet.
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Lorem ipsum dolor sit.
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Lorem ipsum dolor sit amet consectetur.
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section >
+        <div class="container p-5">
+            <div class="project-section-top-info-wrapper d-flex flex-column gap-1">
+                <div class="project-section-top-info-heading fw-custom-bold fs-3">
+                    Project
+                </div>
+                <div class="project-section-top-info-content ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper mySwiper  py-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide d-flex justify-content-center ">
+                <div class="project-seciton-slider-all-wrapper">
+                    <div class="project-section-card-wrapper rounded-5 position-relative ">
+                        <div class="project-section-card-img-wrapper h-100">
+                            <img src="assets/img/project/project-img-1.jpg" alt="" class="w-100 h-100 rounded-5">
+                        </div>
+        
+                        <div
+                            class="project-section-card-bottom-cotent-wrapper position-absolute px-4 px-md-5 py-md-4 py-3  d-flex flex-column gap-2 rounded-5">
+                            <div class="project-section-card-bottom-content-heading fw-custom-bold fs-3">
+                                Carporte enclourse
+                            </div>
+                            <div class="project-section-card-bottom-content-contnet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est quis sit ducimus
+                                exercitationem obcaecati.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <div class="project-seciton-slider-all-wrapper">
+                    <div class="project-section-card-wrapper rounded-5 position-relative ">
+                        <div class="project-section-card-img-wrapper h-100">
+                            <img src="assets/img/project/project-img-1.jpg" alt="" class="w-100 h-100 rounded-5">
+                        </div>
+        
+                        <div
+                            class="project-section-card-bottom-cotent-wrapper position-absolute  px-5 py-4  d-flex flex-column gap-2 rounded-5">
+                            <div class="project-section-card-bottom-content-heading fw-custom-bold fs-3">
+                                Carporte enclourse
+                            </div>
+                            <div class="project-section-card-bottom-content-contnet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est quis sit ducimus
+                                exercitationem obcaecati.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <div class="project-seciton-slider-all-wrapper">
+                    <div class="project-section-card-wrapper rounded-5 position-relative ">
+                        <div class="project-section-card-img-wrapper h-100">
+                            <img src="assets/img/project/project-img-1.jpg" alt="" class="w-100 h-100 rounded-5">
+                        </div>
+        
+                        <div
+                            class="project-section-card-bottom-cotent-wrapper position-absolute  px-5 py-4  d-flex flex-column gap-2 rounded-5">
+                            <div class="project-section-card-bottom-content-heading fw-custom-bold fs-3">
+                                Carporte enclourse
+                            </div>
+                            <div class="project-section-card-bottom-content-contnet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est quis sit ducimus
+                                exercitationem obcaecati.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <div class="project-seciton-slider-all-wrapper">
+                    <div class="project-section-card-wrapper rounded-5 position-relative ">
+                        <div class="project-section-card-img-wrapper h-100">
+                            <img src="assets/img/project/project-img-1.jpg" alt="" class="w-100 h-100 rounded-5">
+                        </div>
+        
+                        <div
+                            class="project-section-card-bottom-cotent-wrapper position-absolute  px-5 py-4  d-flex flex-column gap-2 rounded-5">
+                            <div class="project-section-card-bottom-content-heading fw-custom-bold fs-3">
+                                Carporte enclourse
+                            </div>
+                            <div class="project-section-card-bottom-content-contnet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est quis sit ducimus
+                                exercitationem obcaecati.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </section>
+
+    <section>
+        <div class="container py-4 my-4 py-md-5 my-md-5">
+            <div class="row gap-md-0 gap-5">
+                <div class="col-12 col-md-4">
+                    <div class="customer-info-card-wrapper project-custom-border p-4 rounded-5 d-flex flex-column gap-4">
+                        <div class="customer-info-card-content">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium recusandae doloribus voluptatibus placeat voluptatum dolorum natus excepturi cupiditate omnis, quasi saepe, cumque at in earum!
+                        </div>
+                        <div class="customer-info-card-img">
+                            <img src="assets/img/project/project-img-2.jpg" alt="" >
+                        </div>
+                        <div class="customer-info-card-bottom-wrapper d-flex justify-content-between align-items-end">
+                            <div class="customer-info-card-bottom-people-name">
+                                <div class=" fw-custom-bold fs-5">Emma Turner</div>
+                                <div class="">Max's pawrent</div>
+                            </div>
+                            <div class="customer-info-card-bottom-ico d-flex gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="customer-info-card-wrapper project-custom-border p-4 rounded-5 d-flex flex-column gap-4">
+                        <div class="customer-info-card-content">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium recusandae doloribus voluptatibus placeat voluptatum dolorum natus excepturi cupiditate omnis, quasi saepe, cumque at in earum!
+                        </div>
+                        <div class="customer-info-card-img">
+                            <img src="assets/img/project/project-img-2.jpg" alt="" >
+                        </div>
+                        <div class="customer-info-card-bottom-wrapper d-flex justify-content-between align-items-end">
+                            <div class="customer-info-card-bottom-people-name">
+                                <div class=" fw-custom-bold fs-5">Emma Turner</div>
+                                <div class="">Max's pawrent</div>
+                            </div>
+                            <div class="customer-info-card-bottom-ico d-flex gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="customer-info-card-wrapper project-custom-border p-4 rounded-5 d-flex flex-column gap-4">
+                        <div class="customer-info-card-content">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium recusandae doloribus voluptatibus placeat voluptatum dolorum natus excepturi cupiditate omnis, quasi saepe, cumque at in earum!
+                        </div>
+                        <div class="customer-info-card-img">
+                            <img src="assets/img/project/project-img-2.jpg" alt="" >
+                        </div>
+                        <div class="customer-info-card-bottom-wrapper d-flex justify-content-between align-items-end">
+                            <div class="customer-info-card-bottom-people-name">
+                                <div class=" fw-custom-bold fs-5">Emma Turner</div>
+                                <div class="">Max's pawrent</div>
+                            </div>
+                            <div class="customer-info-card-bottom-ico d-flex gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section>
+        <div class="container pb-5 mb-5 ">
+            <div class="contact-section-top-heading fw-custom-bold fs-1 text-center py-5 mb-4">
+                Contact Us
+            </div>
+            <div class="row g-0 gap-md-0 gap-5">
+                <div class="col-12 col-md-6 d-flex justify-content-center px-md-5">
+                    <div class="contact-section-start-card d-flex flex-column gap-4 px-5 align-items-center">
+                        <div class="contact-section-start-heading fs-3 fw-custom-bold ">
+                            Get in touch
+                        </div>
+                        <div class="contact-section-start-content">
+                            Have questions or want to share yout peak ? we'd love to hear from to!
+                        </div>
+                        <a class="contact-section-button-wrapper px-3 py-2 rounded-5 bg-purple-color text-decoration-none  d-flex  align-items-center gap-3" href="#?">
+                            <div class="contact-section-button-word color-green">
+                                Send your message
+                            </div>
+                            <div class="contact-section-button-ico ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right green-filer" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center px-md-5">
+                    <div class="contact-section-start-card d-flex flex-column gap-4 px-5 align-items-center">
+                        <div class="contact-section-start-heading fs-3 fw-custom-bold ">
+                            Get in touch
+                        </div>
+                        <div class="contact-section-start-content">
+                            Have questions or want to share yout peak ? we'd love to hear from to!
+                        </div>
+                        <a class="contact-section-button-wrapper px-3 py-2 rounded-5 bg-purple-color text-decoration-none  d-flex  align-items-center gap-3" href="#?">
+                            <div class="contact-section-button-word color-green">
+                                Send your message
+                            </div>
+                            <div class="contact-section-button-ico ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right green-filer" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+   
+    <footer class="bg-green-color">
+        <div class="container py-5 mt-5" >
+            <div class="row px-md-5 ">
+                <div class="col-md-3 col-6">
+                    <div class="footer-item-wrapper d-flex justify-content-center">
+                        <diva class="navbar-brand d-flex align-items-center gap-2 ">
+                            <div class="logo-ico ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-asterisk" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1" />
+                                </svg>
+                            </div>
+                            <div class=" lh-sm">
+                                <div class="fs-3">spark</div>
+                                <div class="fs-sm">dogs healts life</div>
+                            </div>
+    
+                        </diva>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="footer-item-wrapper d-flex justify-content-center">
+                        <div class="d-flex flex-column gap-2 ">
+                            <div class="footer-item-heading fw-custom-bold mb-1"> About Us</div>
+                            <div>Projects</div>
+                            <div>Parherns</div>
+                            <div>Contact Us</div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="footer-item-wrapper d-flex justify-content-center">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="footer-item-heading fw-custom-bold mb-1">How To Help</div>
+                            <div>What Know Helps</div>
+                            <div>What Know Helps</div>
+                            <div>What Know Helps</div>
+                            <div>What Know Helps</div>
+                    
+                        </div>
+                      
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6 d-flex justify-content-center align-items-center">
+                    <div class="footer-item-wrapper d-flex  justify-content-center">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="footer-item-heading fw-custom-bold mb-1">Fllow Us</div>
+                            <div class="icons-footer d-flex gap-3 ">
+                               <div class="icon-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg>
+                               </div>
+                               <div class="icon-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg>
+                               </div>
+                               <div class="icon-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                  </svg>
+                               </div>
+                               <div class="icon-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                  </svg>
+                               </div>
+                            </div>
+                           
+                    
+                        </div>
+                      
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+   
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      centeredSlides: true,
+      spaceBetween: 100,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+      /*
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },*/
+        1024: {
+          slidesPerView: 1.6,
+          spaceBetween: -80,
+        },
+      },
+    });
+  </script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
